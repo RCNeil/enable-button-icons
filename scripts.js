@@ -3,7 +3,6 @@
 
 //iconData PASSED FROM LOCALIZE SCRIPT
 const ICONS = createSVGWPElements(iconData);
-console.log(ICONS);
 
 function createSVGWPElements(iconData) {
     const result = [];
