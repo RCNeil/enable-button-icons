@@ -4,6 +4,7 @@ A plugin to modify the Wordpress `core/button` block to include icons based on N
 Notable changes:
 
 * There is an icons folder within the plugin directory. Upload your SVG's there.
-* The PHP will generate the markup on both the backend and frontend to implement them 
+* The PHP will generate the markup on both the backend and frontend to implement them
+* I removed the React because I'm an old fart
 
 Modify the CSS for your needs.
