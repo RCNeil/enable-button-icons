@@ -65,7 +65,7 @@ wp.hooks.addFilter('blocks.registerBlockType', 'enable-button-icons/add-attribut
 function addInspectorControls(BlockEdit) {
 	return function (props) {
 		if (props.name !== 'core/button') {
-			return BlockEdit(props);
+			return wp.element.createElement(BlockEdit, props);
 		}
 
 		var attributes = props.attributes,
